@@ -4,5 +4,5 @@ RewriteBase /admin-secretssm/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule . /admin.secretssm/index.html [L]
+RewriteRule . /admin-secretssm/index.html [L]
 </IfModule>
